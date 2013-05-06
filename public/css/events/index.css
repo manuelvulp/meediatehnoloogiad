@@ -1,0 +1,40 @@
+.wrapper-events {
+  width: 100%;
+}
+
+.content-events {
+  margin: 0 auto;
+  text-align: center;
+  width: 1200px;
+}
+
+.header-event {
+  background-image: url(../../img/layouts/opacity_black.png);
+  color: white;
+}
+
+.item-event {
+  color: black;
+  padding: 10px;
+}
+
+.event-title {
+  color: white !important;
+  padding: 10px;
+  text-align: center;
+}
+
+.venue-text {
+  color: #999999;
+  padding: 10px;
+  text-align: justify;
+}
+
+.event-facebook {
+  height: 20px;
+  width: 20px;
+}
+
+.event {
+  background-image: url(../../img/events/bg_venue.png);
+}

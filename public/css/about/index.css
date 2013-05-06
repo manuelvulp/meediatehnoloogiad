@@ -1,0 +1,48 @@
+/**
+ * WRAPPERS
+ */
+
+.wrapper-about {
+  /*background-color: black;*/
+  width: 100%;
+}
+
+/**
+ * CONTENTS
+ */
+
+.content-about {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+/**
+ * BODY ATTRIBUTES
+ */
+
+.content {
+  /*background-image: url(../../img/layouts/opacity_black.png);*/
+  text-align: center; 
+}
+
+.description-image-venue {
+  height: 510px;
+  width: 854px;
+}
+
+.title-about {
+  background-image: url(../../img/layouts/opacity_black.png);
+  color: white;
+  font-size: 2em;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 0 0 10px white;
+}
+
+.text-about {
+  background-image: url(../../img/layouts/opacity_white.png);
+  color: black;
+  font-size: 1em;
+  padding: 10px;
+  text-align: left;
+}

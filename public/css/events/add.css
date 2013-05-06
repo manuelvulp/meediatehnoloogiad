@@ -1,0 +1,179 @@
+/**
+ * WRAPPERS
+ */
+
+.wrapper-form,
+.wrapper-background,
+.wrapper-error,
+.wrapper-headerimg,
+.wrapper-title,
+.wrapper-video,
+.content-fb,
+.wrapper-description,
+.wrapper-customizables,
+.wrapper-venues-header,
+.wrapper-venues,
+.wrapper-submit {
+  width: 100%;
+}
+
+/**
+ * CONTENTS
+ */
+
+.content-form,
+.content-background,
+.content-error,
+.content-headerimg,
+.content-title,
+.content-video,
+.content-fb,
+.content-description,
+.content-customizables,
+.content-submit {
+  background-image: url(../../img/layouts/opacity_black.png);
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.content-venues-header {
+  background-image: url(../../img/events/event_add_bg.png);
+  background-position: 100%;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.content-venues {
+  /*background-image: url(../../img/layouts/opacity_white.png);*/
+  background-image: url(../../img/layouts/opacity_black.png);
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.text-error {
+  color: red;
+  padding: 10px;
+}
+
+.text-event {
+  color: white;
+  padding: 10px;
+}
+
+.file-wrapper {
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+.file-wrapper input {
+  cursor: pointer;
+  font-size: 100px;
+  height: 100%;
+  filter: alpha(opacity=1);
+  -moz-opacity: 0.01;
+  opacity: 0.01;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.file-wrapper .button {
+  /*background: #79130e;*/
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  /*display: inline-block;*/
+  margin-right: 5px;
+  /*padding: 4px 18px;*/
+  text-transform: uppercase;
+}
+
+.uploaded-file {
+  color: red;
+}
+
+.text-venue {
+  color: black;
+  padding: 5px; 
+  text-align: center;
+}
+
+.title-venue {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.venue-date,
+.venue-location,
+.venue-place,
+.venue-ticket,
+.venue-facebook {
+  margin-top: 5px;
+  width: 100%;
+}
+
+form input {
+  height: 30px !important;
+  /*margin-left: 10px;*/
+  margin-top: 5px !important;
+  padding: 0px;
+  width: 100% !important;
+}
+
+.textarea {
+  padding: 5px;
+  max-height: 200px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.input-description {
+  max-height: 200px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.fileupload {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.fileupload-preview {
+  background-image: url(../../img/layouts/opacity_black.png);
+  border: none !important;
+  color: white;
+  height: 140px;
+  margin-top: 25px;
+  outline: none !important;
+  padding: 5px;
+  width: 100%;
+}
+
+form input,
+form textarea {
+  /*background: red !important;*/
+  border: none !important;
+  /*box-shadow: inset 0px 0px 50px red !important;*/
+}
+
+
+.description {
+  background-image: url(../../img/layouts/close.png);
+  height: 15px !important;
+  max-height: 15px !important;
+  width: 15px !important;
+}
+
+.error-title,
+.error-description {
+  color: red;
+}
+
+.checkmark {
+  display: none;
+}
