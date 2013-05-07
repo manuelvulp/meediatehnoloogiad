@@ -53,6 +53,14 @@ a:hover {
   color: white;
 }
 
+pre {
+  background-color: transparent !important;
+  color: white !important;
+  font-family: 'Roboto Condensed', Sans-serif;
+  font-size: 14px;
+  padding: 0px !important;
+}
+
 .m5 {
   margin-top: 5px;
 }
@@ -236,6 +244,13 @@ a:hover {
 }
 
 .my-profile-dropdown {
+  display: none;
+  margin-top: 30px;
+  position: absolute;
+  width: 10%;
+}
+
+.my-news-dropdown {
   display: none;
   margin-top: 30px;
   position: absolute;

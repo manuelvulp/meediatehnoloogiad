@@ -13,9 +13,7 @@ class Events_Controller extends Base_Controller
         $this->js_post_load('events/index');
 
         $this->set_venues();
-
-        $this->content->events = null;
-
+        
         $this->content->events = Events::get_all_events();
 
         return $this->render_page();

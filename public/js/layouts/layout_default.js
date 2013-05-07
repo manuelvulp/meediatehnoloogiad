@@ -256,6 +256,14 @@ $(".my-venues").mouseleave(function() {
   $(".my-venues-dropdown").fadeOut(animationSpeed);
 })
 
+$(".my-news").mouseenter(function() {
+  $(".my-news-dropdown").fadeIn(animationSpeed);
+})
+
+$(".my-news").mouseleave(function() {
+  $(".my-news-dropdown").fadeOut(animationSpeed);
+})
+
 /**
  * FUNCTIONS
  */

@@ -70,6 +70,7 @@ return array(
 	'images' => array(
 		'venue'				=> 'layouts/location.png',
 		'user'				=> 'layouts/user.png',
+		'news'				=> 'layouts/news.png',
 
 		'facebook_black' 	=> 'logos/facebook_black.png',
 		'facebook_white' 	=> 'logos/facebook_white.png',
@@ -114,6 +115,8 @@ return array(
 		'view_profile'		=> 'home',
 		'change_profile'	=> 'home',
 
+		'add_news'				=> 'news/add/',
+
 		'register'		=> 'register',
 		'logout' 			=> 'auth/logout',
 
@@ -122,6 +125,9 @@ return array(
 		 */
 		'login' 			=> 'auth/login',
 		'add_user' 		=> 'login/add/',
+		'add_news' 		=> 'news/add/',
+		'edit_news' 	=> 'news/edit/',
+		'delete_news'	=> 'news/delete/',
 
 		/**
 		 * URI LINKS
@@ -134,7 +140,6 @@ return array(
 
 	/**
 	 *	RULES and ERROR MESSAGES for forms
-	 *	'rules' and 'error_msgs' have to have same amount of members
 	 */
 	'rules' => array(
 		'title'  => 'required|min:5|max:50',
@@ -142,10 +147,17 @@ return array(
 		'background_image' => 'image|max:250',
 	),
 
+	'news_rules' => array(
+		'news_title' => 'required|min:5|max:45',
+		'news_content' => 'required|min:5',
+	),
+
 	'custom_error_msgs' => array(
 		'title' 			=> 'Title has to be between 5 to 20 characters',
 		'description' 		=> 'You have to have event description',
 		'background_image'	=> 'Image size cannot be more than 100 kilobytes',
+		'news_title' => 'Title has to be atleast 5 characters',
+		'news_content' => 'Content has to be atleast 5 characters',
 	),
 	// 'docs' => array('handles' => 'docs'),
 

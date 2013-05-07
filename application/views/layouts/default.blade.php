@@ -46,20 +46,6 @@
             </div>
           </a>
 
- <!--          <a href="{{ $links.active_events }}">
-            <div class="row-fluid item-dropdown">
-              <div class="span2 item-toolbar-img"> <img src="{{ $images.venue }} " class="image-toolbar"/> </div>
-              <div class="span9 item-toolbar-text"> Active events </div>
-            </div>
-          </a>
-
-          <a href="{{ $links.past_events }}">
-            <div class="row-fluid item-dropdown">
-              <div class="span2 item-toolbar-img"> <img src="{{ $images.venue }} " class="image-toolbar"/> </div>
-              <div class="span9 item-toolbar-text"> Past events </div>
-            </div>
-          </a> -->
-
         </div>
       </div>
       
@@ -75,13 +61,29 @@
               <div class="span9 item-toolbar-text"> View profile </div>
             </div>
           </a>
-<!-- 
-          <a href="{{ $links.view_profile }}">
+
+        </div>
+      </div>
+      
+      <div href="#" class="item-toolbar my-news">
+        <div class="span2 item-toolbar-img"> <img src="{{ $images.news }} " class="image-toolbar"/> </div>
+        <div class="span9 item-toolbar-text center"> MY NEWS </div>
+
+        <div class="my-news-dropdown">
+
+          <a href="{{ $links.add_news }}">
             <div class="row-fluid item-dropdown">
-              <div class="span2 item-toolbar-img"> <img src="{{ $images.user }} " class="image-toolbar"/> </div>
-              <div class="span9 item-toolbar-text"> Change profile </div>
+              <div class="span2 item-toolbar-img"> <img src="{{ $images.news }} " class="image-toolbar"/> </div>
+              <div class="span9 item-toolbar-text"> Add news </div>
             </div>
-          </a> -->
+          </a>
+
+          <a href="{{ $links.edit_news }}">
+            <div class="row-fluid item-dropdown">
+              <div class="span2 item-toolbar-img"> <img src="{{ $images.news }} " class="image-toolbar"/> </div>
+              <div class="span9 item-toolbar-text"> Edit news </div>
+            </div>
+          </a>
 
         </div>
       </div>
